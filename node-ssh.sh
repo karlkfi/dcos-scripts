@@ -19,9 +19,9 @@
 # Usage:
 # $ node-ssh.sh [--insecure] [--user STRING] [--key PATH] [--command "COMMAND"] <NODE_IP>
 # OR
-# $ node-ssh.sh [--insecure] [--user STRING] [--key PATH] [--command "COMMAND"] <NODE_IP> < command.sh
+# $ node-ssh.sh [--insecure] [--user STRING] [--key PATH] <NODE_IP> < command.sh
 # OR
-# $ node-ssh.sh [--insecure] [--user STRING] [--key PATH] [--command "COMMAND"] <NODE_IP> <<< EOM
+# $ node-ssh.sh [--insecure] [--user STRING] [--key PATH] <NODE_IP> <<< EOM
 # > COMMAND
 # > EOM
 
